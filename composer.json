@@ -1,0 +1,13 @@
+{
+  "name": "mesushanta/sketch",
+  "type": "project",
+  "description": "Sketch web Framework.",
+  "keywords": ["framework", "Sketch we framework"],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Dev\\": "dev/",
+      "Sketch\\Framework\\": "framework/"
+    }
+  }
+}
