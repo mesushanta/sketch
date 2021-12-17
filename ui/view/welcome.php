@@ -34,6 +34,10 @@
 <body>
     <div class="container">
         <h1>Welcome To Sketch Framework</h1>
+
+        <h3 style="background: aquamarine; padding: 15px;">
+            <?php echo $message; ?>
+        </h3>
         The following variables are passed from controller with view.<br>
         <?php echo $first; ?><br>
         <?php echo $second->third; ?><br>s
